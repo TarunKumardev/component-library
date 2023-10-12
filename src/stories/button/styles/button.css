@@ -1,0 +1,48 @@
+
+.storybook-button-base{
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 8px 16px;
+}
+
+.storybook-button-default{
+background-color: black;
+color: white;
+}
+
+.storybook-button-default:hover {
+    background-color : hsl(240 5.9% 10%/.9)
+}
+
+.storybook-button-outline{
+  border: 1px solid rgb(228, 228, 231);
+   color: black;
+   background-color: white;
+    
+}
+
+.storybook-button-outline:hover{
+    background: hsl(240 4.8% 95.9%);
+}
+
+.storybook-button-ghost{
+    border: none;
+    background-color: transparent;
+}
+
+.storybook-button-link{
+    border: none;
+    background-color: transparent;
+}
+.storybook-button-link:hover{
+    text-decoration-line: underline; 
+    text-underline-offset : 4px;
+    transition-timing-function : cubic-bezier(.4,0,.2,1);
+    transition-duration : .15s;
+    cursor: pointer;
+}
+
+
+
+
