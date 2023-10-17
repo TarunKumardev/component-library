@@ -6,7 +6,8 @@
   "scripts": {
     "test": "vitest",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "coverage" : "vitest run --coverage"
   },
   "keywords": [],
   "author": "",
